@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Demow",
+            "server": "https://businesscentral.dynamics.com/b12deddb-f5c9-4d39-ba48-3b95b1d855fb",
+            "tenant": "b12deddb-f5c9-4d39-ba48-3b95b1d855fb",
+            "startupObjectId": 50603,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "ForceSync",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "9b1ead4a-5759-47b8-b509-8e2e6d3fdeeb",
+  "name": "EtevaRExtention",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    { "appId": "1b80b577-772f-4e0f-bc13-50214fb3da6e",
+                   "name": "Migration of QuickBooks Data",
+                   "publisher": "Microsoft",
+                   "version": "1.0.0.0" }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50600,
+      "to": 50700
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
